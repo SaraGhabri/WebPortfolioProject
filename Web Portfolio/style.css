@@ -376,3 +376,13 @@ a {
   background-color: #333;
 }
 
+.footer {
+  position : relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white; /* Set the text color to white */
+  font-size: 14px;
+  border-top: 1px solid #ddd; /* Optional: Add a border at the top for separation */
+}
