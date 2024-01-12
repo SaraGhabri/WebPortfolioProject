@@ -96,6 +96,7 @@
   position: relative;
 }
 
+
 .phoneScreen {
   width: 264px;
   height: 567px;
@@ -304,19 +305,61 @@ a {
 
 /* CSS for Toggle Music Button */
 #toggleMusic {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #ffffff;
-  color: #333; /* Change the text color for better visibility */
+  color: #fff;
   padding: 8px 12px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  transition: background-color 0.3s ease, opacity 0.5s ease;
 }
 
 #toggleMusic:hover {
-  background-color: #1f1b1b; /* Grey color on hover */
+  background-color: #212222;
 }
 
+.contactForm {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: rgba(17, 17, 17, 255); /* Set the background color to grey */
+  padding: 40px; /* Add some padding for better appearance */
+}
+
+.contactForm h2 {
+  color: #ffffff;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.contactForm button {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 12px; /* Adjust padding to make the button smaller */
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Center the button within the container */
+}
+
+.contactForm button:hover {
+  background-color: #333;
+}

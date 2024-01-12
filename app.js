@@ -9,21 +9,16 @@ const phones = document.querySelectorAll(".phone")
 const laptop = document.querySelector(".laptop")
 
 
-// Function to play/pause the background music
-function toggleBackgroundMusic() {
+const backgroundMusic = document.getElementById("backgroundMusic");
+const toggleMusicButton = document.getElementById("toggleMusic");
+
+toggleMusicButton.addEventListener("click", () => {
   if (backgroundMusic.paused) {
     backgroundMusic.play();
   } else {
     backgroundMusic.pause();
   }
-}
-
-// Event listener for a button click to toggle music
-const toggleMusicButton = document.getElementById("toggleMusic");
-
-if (toggleMusicButton) {
-  toggleMusicButton.addEventListener("click", toggleBackgroundMusic);
-}
+});
 
 
 // on a utilisé une structure repetitive JS
@@ -87,7 +82,7 @@ window.addEventListener("scroll", () => {
   // Your existing code...
 
   // Add a prompt when the user scrolls past a specific position (for example, 5200 pixels)
-  if (offsetY > 5200 && !feedbackPromptShown) {
+  if (offsetY > 5850 && !feedbackPromptShown) {
     const userInput = prompt("Thanks for exploring my portfolio! Feel free to provide feedback:");
 
     // Check if the user clicked "OK" and provided feedback

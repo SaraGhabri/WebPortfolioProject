@@ -82,7 +82,7 @@ window.addEventListener("scroll", () => {
   // Your existing code...
 
   // Add a prompt when the user scrolls past a specific position (for example, 5200 pixels)
-  if (offsetY > 5200 && !feedbackPromptShown) {
+  if (offsetY > 5850 && !feedbackPromptShown) {
     const userInput = prompt("Thanks for exploring my portfolio! Feel free to provide feedback:");
 
     // Check if the user clicked "OK" and provided feedback
