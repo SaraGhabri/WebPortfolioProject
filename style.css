@@ -103,8 +103,7 @@
   position: absolute;
   top: 17px;
   left: 18px;
-  border-radius: 28px;
-  overflow: scroll;
+  border-radius: 20px;
 }
 
 .phoneScreen::-webkit-scrollbar {
@@ -114,6 +113,7 @@
 .phoneApp {
   width: 100%;
   height : 567px;
+  border-radius: 20px;
 
 }
 
@@ -329,7 +329,7 @@ a {
 }
 
 .contactForm {
-  max-width: 1300px;
+  max-width: 1700px;
   margin: 0 auto;
   background-color: rgba(17, 17, 17, 255); /* Set the background color to grey */
   padding: 40px; /* Add some padding for better appearance */
