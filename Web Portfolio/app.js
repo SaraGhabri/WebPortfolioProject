@@ -12,6 +12,7 @@ const laptop = document.querySelector(".laptop")
 const backgroundMusic = document.getElementById("backgroundMusic");
 const toggleMusicButton = document.getElementById("toggleMusic");
 
+
 toggleMusicButton.addEventListener("click", () => {
   if (backgroundMusic.paused) {
     backgroundMusic.play();

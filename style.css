@@ -356,7 +356,7 @@ a {
 }
 
 .contactForm button {
-  background-color: #2980b9;
+  background-color: #8823c2;
   color: #fff;
   padding: 12px; /* Adjust padding to make the button smaller */
   cursor: pointer;
@@ -368,4 +368,15 @@ a {
 
 .contactForm button:hover {
   background-color: #333;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white; /* Set the text color to white */
+  font-size: 14px;
+  border-top: 1px solid #ddd; /* Optional: Add a border at the top for separation */
 }
